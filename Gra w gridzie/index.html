@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gra</title>
+</head>
+<body>
+    <p>Kolumny:</p>
+    <p>Wiersze:</p>
+    <p>Ilość kolorów:</p>
+    <input type="text" id="collumns_input" value="10"> 
+    <input type="text" id="rows_input" value="10">
+    <input type="text" id="colors_count" value="4">
+    <p id="clicked_divs_amount">0</p>
+    <input type="button" onclick="createGrid()" value="WYGENERUJ GRID">
+    <br>
+
+    <div id="grid" class="grid"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
